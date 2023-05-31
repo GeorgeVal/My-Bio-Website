@@ -1,0 +1,146 @@
+
+
+.title{
+    background-size: cover;
+    background-color: rgb(220, 250, 250);
+    
+    
+}
+
+.name{
+    padding-top: 60px;
+    color: rgb(138, 184, 224);
+    font-family: 'Merriweather', serif;
+    
+}
+
+.job{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(138, 184, 224);
+}
+
+.lead{
+    padding-bottom: 100px;
+}
+
+.jellyfish{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bubble{
+    position: absolute;
+    height: 100px;
+    width: auto;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.top-container{
+    position: relative;
+    margin-bottom: 100px;
+    padding-bottom: 0px;
+}
+
+.bottom-bubble{
+    position: absolute;
+    height: 100px;
+    width: auto;
+    right: 10px;
+    bottom: 250px;
+
+}
+
+.prof-pic{
+    height: 150px;
+    width: auto;
+    border-radius: 80%;
+}
+
+.greetings{
+    color:  rgb(138, 184, 224);
+}
+
+.catchphrase{
+    font-family: 'Merriweather', serif;
+    color: rgb(114, 118, 121);
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    width: 75%;
+    
+}
+
+.image1{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    align-self: center;
+    
+}
+
+.vibing-gif{
+    height: 200px;
+    width: auto;
+}
+
+.content1{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    align-self: center;
+    text-align: left;
+}
+
+.info{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.heading{
+    color:  rgb(99, 131, 158);
+    font-family: serif;
+}
+
+.image2{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    align-self: center;
+    
+}
+
+.content2{
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    align-self: center;
+    text-align: left;
+}
+
+.skills-container{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.contact-button{
+    background-color:  rgb(138, 184, 224);
+}
+
+.challenge{
+    font-family: serif;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: rgb(99, 131, 158);
+}
+
+
